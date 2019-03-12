@@ -1,13 +1,13 @@
 /* global $ */
 
 // BELOW Update the songs array with four of your favorites songs.
-var songs = ["Waka"];
+var songs = ["Beasty"];
 // BELOW Add 4 More arrays to store images_links, artists, song lengths, and links for each song
 // Make sure they match the same order as your array above
-var images = ["https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/6ix9ine_%E2%80%93_Dummy_Boy.png/220px-6ix9ine_%E2%80%93_Dummy_Boy.png"];
-var artists = ["6ix9ine feat A.Boggie"];
-var lengths = ["2:09"];
-var links = ["https://www.youtube.com/watch?v=EKIpEwC0aLo"];
+var images = ["https://images.genius.com/557f4ca436aaabc4210bd3850f96b954.1000x1000x1.jpg"];
+var artists = ["A.Boggie"];
+var lengths = ["2:32"];
+var links = ["https://www.youtube.com/watch?v=4KqMpj1L0L0"];
 
 
 function displayInfo(){

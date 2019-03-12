@@ -44,12 +44,14 @@ h1 {
 }
 
 #artists p {
-    font-size: 30px;
+    font-size: 40px;
     height: 100px;
     margin: 20px;
     color:#F64C72;
     padding-top: 8%;
         text-align: center;
+        font-weight: bold;
+        padding-top:8%;
 
 }
 
@@ -60,6 +62,7 @@ h1 {
     text-align: center;
         padding-top:8%;
         color:black;
+        font-weight: bold;
 
 }
 
