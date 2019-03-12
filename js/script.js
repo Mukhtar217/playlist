@@ -17,12 +17,25 @@ function displayInfo(){
         $("#songs").append("<p>" +song+ "</p>");
     });
     images.forEach(function(image) {
-        $("#images").append("<img src=" +images+ ">");
+        $("#images").append("<img src=" +image+ ">");
+    });
+    artists.forEach(function(artist) {
+        $("#artists").append("<p>" +artist+ "</p>");
+    });
+    lengths.forEach(function(length){
+        $("#lengths").append("<p>" +length+ "</p>");
+    });
+    links.forEach(function(link){
+        $("#links").append('<a href="'+link+'" track="on"><img src="https://lh3.googleusercontent.com/-XeLkthjVGVo/Wzhj0JZLYmI/AAAAAAAAoYw/GbkL4jDV4UAAfz-uppwkXHmDEefYeV9EQCJoC/w1000-h1000/IMG_0525.JPG" class="linkLogo"></a>');
     });
 }
 
 function emptyInfo(){
-    $("#cart").empty();
+    $("#songs").empty();
+    $("#images").empty();
+    $("#artists").empty();
+    $("#lengths").empty();
+    $("#links").empty();
     // Use jQuery to empty all of the remaining divs
 
 
@@ -35,6 +48,13 @@ function addInfo(){
     songs.push(addSong);
     var addImage = $("#image").val();
     images.push(addImage);
+    var addArtists = $("#artist").val();
+    artists.push(addArtists);
+    var addLengths = $("#length").val();
+    lengths.push(addLengths);
+    var addLinks = $("#link").val();
+    links.push(addLinks);
+    console.log(addSong);
 }
 
 $("#add").click(function() {
